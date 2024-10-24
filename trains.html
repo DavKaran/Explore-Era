@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trains</title>
+    <link rel="stylesheet" type="text/css" href="trains.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+    <link href="logo.jpg" rel="icon" type="image/x-icon">
+</head>
+<body>
+    <img style=" width:900px; height:1000px;" src="Trainbg.jpeg" alt="BackGround">
+    <div style="float: right; width: 40%;" class="container">
+        <h2 style="font-size: 80px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bolder;">Train Booking</h2>
+        <form>
+            <label for="source">Form:</label>
+            <input type="text" placeholder="From" id="source" name="source" required>
+    
+            <label for="destination">To:</label>
+            <input type="text" placeholder="Enter Your Destination" id="destination" name="destination" required>
+    
+            <label for="date">Date of Travel:</label>
+            <input type="date" id="date" name="date" required>
+    
+            <label for="passengers">Number of Passengers:</label>
+            <select  id="passengers" name="passengers" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <input type="submit" value="Submit">
+        </form>
+        <div class="footer">
+            <label>For Enquiry</label>
+            <a href="https://enquiry.indianrail.gov.in/mntes/"><button type="button">Click Here</button></a>
+            </div>
+    </div>
+</body>
+</html>
